@@ -77,7 +77,7 @@
         <ol>
             <li>Select the Location (Selangor or Kuala Lumpur) from the dropdown menu.</li>
             <li>Enter the Land Value (RM/psf), Term of Lease Renewal (Years), and Land Area (sqft) manually.</li>
-            <li>Select the Property Type (Residential, Agriculture, Commercial, or Industrial) if applicable.</li>
+            <li>Select the Property Type (Residential, Agriculture, Commercial, or Industrial) whichever applicable.</li>
             <li>Click the "Calculate Lease Extension" button to get the result.</li>
         </ol>
     </div>
@@ -131,7 +131,7 @@
         var propertyType = document.getElementById('propertyType');
         
         if (location === 'kuala_lumpur') {
-            propertyType.innerHTML = '<option value="residential">Residential</option>';
+            propertyType.innerHTML = '<option value="residential">All Category</option>';
         } else {
             propertyType.innerHTML = `
                 <option value="residential">Residential</option>
